@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Вывод списка</h1>
+{% for item in items %}
+    <p><a href="candidates/{{ item }}"> {{ item }}</a></p>
+{% endfor %}
+
+</body>
+</html>
